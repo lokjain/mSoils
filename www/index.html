@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html>
+<title>PAU Mobile UREA Guide</title>
+<meta charset="utf-8"/><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/mAgIDS1.min.css" />
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.0.min.css" />
+<link rel="stylesheet" href="css/jquery.mobile-1.4.0.min.css" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js" data-prefetch></script>
+<script>
+$( document ).bind( "mobileinit", function() {
+    // Make your jQuery Mobile framework configuration changes here!
+ 	$.support.cors = true;
+    $.mobile.allowCrossDomainPages = true;
+    $.mobile.phonegapNavigationEnabled = true
+    $.mobile.loader.prototype.options.text = "Loading Page....";
+    $.mobile.loader.prototype.options.textVisible = false;
+    $.mobile.loader.prototype.options.theme = "f";
+    $.mobile.loader.prototype.options.html = "";
+});
+				var d = new Date();
+				var n = d.getFullYear();
+
+</script>
+<script type="text/javascript" src="js/jquery.mobile-1.4.0.min.js" data-prefetch></script>
+<script type="text/javascript" src="js/newscripts.js" data-prefetch></script>
+</head>
+<body>
+	<div id="loader" style="display: none">
+		<img src="images/_notes/ajax-loader.gif">
+	</div>
+	
+	<div data-role="page" id="startpage" data-theme="f" data-add-back-btn="true">
+		<div data-role="header" data-theme="f" data-icon="gear">
+<!--			<a href="#" data-rel="back" data-role="button" data-icon="arrow-l" data-iconpos="notext">Back</a>-->
+			<h1>PAU Urea Guide</h1>
+<!--			<div class="ui-btn-right" data-role="controlgroup" data-mini="true" data-type="horizontal">
+     			<a href="#ABOUT1" data-role="button" id="mAbt"   data-icon="info" data-iconpos="notext">About</a>
+     			<a href="#startpage" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+     		</div>
+-->		</div>
+		<div id="page1content" data-role="content" data-theme="f">
+			<div align="center"><img width="100%" src="http://www.pau.edu/mobapps/mSoils/img/lcc.jpg" /></div>
+			<div align="center"><img width="100%" src="http://www.pau.edu/mobapps/mSoils/img/gs.jpg" /></div>
+
+			<div id="langu">
+<!--			<select id="lang" class='showloadmsg' name='nang'> 
+				<option value="">Select Language</option>
+				<option value="EN">English</option>
+				<option value="PB">ਪੰਜਾਬੀ</option>
+			</select>
+-->
+
+				<a id="PB" class='showloadmsg' data-role="button" href="#NT">ਪੰਜਾਬੀ ਭਾਸ਼ਾ ਚੁਣੋ </a>
+				<a id="HN" class='showloadmsg' data-role="button" href="#NT">हिंदी भाषा का चयन करें</a>
+				<a id="EN" class='showloadmsg' data-role="button" href="#NT">Select English Language</a>
+
+			</div>
+			<div id="team">
+			
+			
+			</div>
+			<div id="resource">
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="f">
+			http://www.pau.edu  All rights reserved.
+	  </div>
+	</div>
+
+	<div data-role="page" id="CROPS" data-theme="f" data-add-back-btn="true">
+		<div data-role="header" data-theme="f" data-icon="gear">
+			<a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext">Back</a>
+			<h1>PAU Urea Guide</h1>
+			<div class="ui-btn-right" data-role="controlgroup" data-mini="true" data-type="horizontal">
+     			<a href="#ABOUT1" data-role="button" id="mAbt"   data-icon="info" data-iconpos="notext">About</a>
+     			<a href="#startpage" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+     		</div>
+		</div>
+		<div id="page1content" data-role="content" data-theme="f">
+			<div id="CROPSB"></div>
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="f">
+			http://www.pau.edu  All rights reserved.
+	  </div>
+	</div>
+
+	<div data-role="page" id="NT" data-theme="f" data-add-back-btn="true">
+		<div data-role="header" data-theme="f" data-icon="gear">
+			<a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext">Back</a>
+			<h1>PAU Urea Guide</h1>
+			<div class="ui-btn-right" data-role="controlgroup" data-mini="true" data-type="horizontal">
+     			<a href="#ABOUT1" data-role="button" id="mAbt"   data-icon="info" data-iconpos="notext">About</a>
+     			<a href="#startpage" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+     		</div>
+		</div>
+		<div id="page1content" data-role="content" data-theme="f">
+			<div id="NT11"></div>
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="f">
+			http://www.pau.edu  All rights reserved.
+	  </div>
+	</div>
+
+	<div data-role="page" id="GS1" data-theme="f" data-add-back-btn="true">
+		<div data-role="header" data-theme="f" data-icon="gear">
+			<a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext">Back</a>
+			<h1>PAU Urea Guide</h1>
+			<div class="ui-btn-right" data-role="controlgroup" data-mini="true" data-type="horizontal">
+     			<a href="#ABOUT1" data-role="button" id="mAbt"   data-icon="info" data-iconpos="notext">About</a>
+     			<a href="#startpage" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+     		</div>
+		</div>
+		<div id="page1content" data-role="content" data-theme="f">
+			<div id="GSB1"></div>
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="f">
+			http://www.pau.edu  All rights reserved.
+	  </div>
+	</div>
+
+	<div data-role="page" id="LCC1" data-theme="f" data-add-back-btn="true">
+		<div data-role="header" data-theme="f" data-icon="gear">
+			<a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext">Back</a>
+			<h1>PAU Urea Guide</h1>
+			<div class="ui-btn-right" data-role="controlgroup" data-mini="true" data-type="horizontal">
+     			<a href="#ABOUT1" data-role="button" id="mAbt"   data-icon="info" data-iconpos="notext">About</a>
+     			<a href="#startpage" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+     		</div>
+		</div>
+		<div id="page1content" data-role="content" data-theme="f">
+			<div id="LCCB1"></div>
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="f">
+			http://www.pau.edu  All rights reserved.
+	  </div>
+	</div>
+	
+	<div data-role="page" id="GSR1" data-theme="f" data-add-back-btn="true">
+		<div data-role="header" data-theme="f" data-icon="gear">
+			<a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext">Back</a>
+			<h1>PAU Urea Guide</h1>
+			<div class="ui-btn-right" data-role="controlgroup" data-mini="true" data-type="horizontal">
+     			<a href="#ABOUT1" data-role="button" id="mAbt"   data-icon="info" data-iconpos="notext">About</a>
+     			<a href="#startpage" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+     		</div>
+		</div>
+		<div id="page1content" data-role="content" data-theme="f">
+			<div id="GSRB1"></div>
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="f">
+			http://www.pau.edu  All rights reserved.
+	    </div>
+	</div>
+
+	<div data-role="page" id="LCR1" data-theme="f" data-add-back-btn="true">
+		<div data-role="header" data-theme="f" data-icon="gear">
+			<a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext">Back</a>
+			<h1>PAU Urea Guide</h1>
+			<div class="ui-btn-right" data-role="controlgroup" data-mini="true" data-type="horizontal">
+     			<a href="#ABOUT1" data-role="button" id="mAbt"   data-icon="info" data-iconpos="notext">About</a>
+     			<a href="#startpage" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+     		</div>
+		</div>
+		<div id="page1content" data-role="content" data-theme="f">
+			<div id="LCRB1"></div>
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="f">
+			http://www.pau.edu  All rights reserved.
+	    </div>
+	</div>
+	
+	
+	<div data-role="page" id="GPAGEX1" data-theme="f" data-add-back-btn="true">
+		<div data-role="header" data-theme="f" data-icon="gear">
+			<a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext">Back</a>
+			<h1>PAU Urea Guide</h1>
+			<div class="ui-btn-right" data-role="controlgroup" data-mini="true" data-type="horizontal">
+     			<a href="#ABOUT1" data-role="button" id="mAbt"   data-icon="info" data-iconpos="notext">About</a>
+     			<a href="#startpage" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+     		</div>
+		</div>
+		<div id="page1content" data-role="content" data-theme="f">
+			<div id="GPAGEXB1"></div>
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="f">
+			http://www.pau.edu  All rights reserved.
+	    </div>
+	</div>
+	
+	
+	<div data-role="page" id="GPAGEX2" data-theme="f" data-add-back-btn="true">
+		<div data-role="header" data-theme="f" data-icon="gear">
+			<a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext">Back</a>
+			<h1>PAU Urea Guide</h1>
+			<div class="ui-btn-right" data-role="controlgroup" data-mini="true" data-type="horizontal">
+     			<a href="#ABOUT1" data-role="button" id="mAbt"   data-icon="info" data-iconpos="notext">About</a>
+     			<a href="#startpage" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+     		</div>
+		</div>
+		<div id="page1content" data-role="content" data-theme="f">
+			<div id="GPAGEXB2"></div>
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="f">
+			http://www.pau.edu  All rights reserved.
+	    </div>
+	</div>
+
+
+	<div data-role="page" id="LPAGEX2" data-theme="f" data-add-back-btn="true">
+		<div data-role="header" data-theme="f" data-icon="gear">
+			<a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext">Back</a>
+			<h1>PAU Urea Guide</h1>
+			<div class="ui-btn-right" data-role="controlgroup" data-mini="true" data-type="horizontal">
+     			<a href="#ABOUT1" data-role="button" id="mAbt"   data-icon="info" data-iconpos="notext">About</a>
+     			<a href="#startpage" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+     		</div>
+		</div>
+		<div id="page1content" data-role="content" data-theme="f">
+			<div id="LPAGEXB2"></div>
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="f">
+			http://www.pau.edu  All rights reserved.
+	    </div>
+	</div>
+	
+	<div data-role="page" id="LPAGEX1" data-theme="f" data-add-back-btn="true">
+		<div data-role="header" data-theme="f" data-icon="gear">
+			<a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext">Back</a>
+			<h1>PAU Urea Guide</h1>
+			<div class="ui-btn-right" data-role="controlgroup" data-mini="true" data-type="horizontal">
+     			<a href="#ABOUT1" data-role="button" id="mAbt"   data-icon="info" data-iconpos="notext">About</a>
+     			<a href="#startpage" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+     		</div>
+		</div>
+		<div id="page1content" data-role="content" data-theme="f">
+			<div id="LPAGEXB1"></div>
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="f">
+			http://www.pau.edu  All rights reserved.
+	    </div>
+	</div>
+
+	<div data-role="page" id="ABOUT1" data-theme="f" data-add-back-btn="true">
+		<div data-role="header" data-theme="f" data-icon="gear">
+			<a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext">Back</a>
+			<h1>PAU Urea Guide</h1>
+			<div class="ui-btn-right" data-role="controlgroup" data-mini="true" data-type="horizontal">
+     			<a href="#ABOUT1" data-role="button" id="mAbt"   data-icon="info" data-iconpos="notext">About</a>
+     			<a href="#startpage" data-role="button" data-icon="home" data-iconpos="notext">Home</a>
+    		</div>
+		</div>
+		<div id="page1content" data-role="content" data-theme="f">
+			<div id="ABOUTB1"></div>
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="f">
+			http://www.pau.edu  All rights reserved.
+	    </div>
+	</div>
+
+</body>
+</html>
