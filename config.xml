@@ -2,7 +2,7 @@
 <widget id="com.pau.soils" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>PAU Urea Guide</name>
     <description>
-        A sample technology for suggesting the urea required for a crop.
+        A technology for suggesting the urea required for a crop.
     </description>
     <author email="lokjain@pau.edu" href="http://www.pau.edu">
         Dr. Lokesh Jain
