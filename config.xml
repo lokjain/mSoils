@@ -39,7 +39,7 @@
         <icon height="114" src="res/ios/icon@2x.png" width="114" />
         <icon height="72" src="res/ios/icon-72.png" width="72" />
         <icon height="144" src="res/ios/icon-72@2x.png" width="144" />		
-        <icon height="120" src="res/ios/icon-120.png" width="120" />		
+        <icon height="120" src="res/ios/icon-60@2x.png" width="120" />		
         <icon height="76" src="res/ios/icon-76.png" width="76" />		
         <icon height="152" src="res/ios/icon-76@2x.png" width="152" />		
 		
