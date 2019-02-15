@@ -34,7 +34,7 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-		<icon src="res/icon/icon.png" />
+		<icon src="res/icon/icon.png" width="1024" height="1024"/>
 		 <!-- iOS 8.0+ -->
         <!-- iPhone 6 Plus  -->
         <icon src="res/icon/ios/icon-60@3x.png"  platform="ios"  width="180" height="180" />
