@@ -34,7 +34,7 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-		<icon src="res/icon/icon.png" width="1024" height="1024"/>
+		<icon src="res/icon/ios/icon.png" width="1024" height="1024"/>
 		 <!-- iOS 8.0+ -->
         <!-- iPhone 6 Plus  -->
         <icon src="res/icon/ios/icon-60@3x.png"  platform="ios"  width="180" height="180" />
@@ -70,6 +70,13 @@
         <icon src="res/icon/ios/iTunesArtwork.png" platform="ios" width="512" height="512" />
         <icon src="res/icon/ios/iTunesArtwork@2x.png" platform="ios" width="1024" height="1024" />
         <icon src="res/icon/ios/icon-1024.png" platform="ios" width="1024" height="1024" />
+
+        <icon src="res/icon/ios/icon-44@2x.png" platform="ios" width="88" height="88" />
+        <icon src="res/icon/ios/icon-27.5@2x.png" platform="ios" width="55" height="55" />
+        <icon src="res/icon/ios/icon-24@2x.png" platform="ios" width="48" height="48" />
+		<icon src="res/icon/ios/icon-86@2x.png" platform="ios" width="172" height="172" />
+		<icon src="res/icon/ios/icon-98@2x.png" platform="ios" width="196" height="196" />
+		<icon src="res/icon/ios/icon-20.png" platform="ios" width="20" height="20" />
 		
 		
 		
@@ -80,8 +87,6 @@
         <splash height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
         <splash height="1536" src="res/screen/ios/screen-ipad-landscape-2x.png" width="2048" />
         <splash height="1136" src="res/screen/ios/screen-iphone-portrait-568h.png" width="640" />
-		
-		
     	<splash src="res/screen/ios/Default-667h.png" width="750" height="1334"/>
     	<splash src="res/screen/ios/Default-736h.png" width="1242" height="2208"/>
     	<splash src="res/screen/ios/Default-Landscape-736h.png" width="2208" height="1242"/>
