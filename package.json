@@ -2,12 +2,12 @@
   "name": "com.pau.soils",
   "displayName": "mSoils",
   "version": "1.0.1",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "        A sample technology for suggesting the urea required for a crop.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Apache Cordova Team",
+  "author": "Dr. Lokesh Jain",
   "license": "Apache-2.0",
   "dependencies": {
     "cordova-android": "^7.1.4",
