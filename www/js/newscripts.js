@@ -139,8 +139,8 @@ document.addEventListener("deviceready", onDeviceReady, false);
 						mPage('#GPAGEX1');
 					}
 					if(mySelTxt=='LCC'){	
-						loadMyPage('',myWebHost+'lccpag1.php?language='+lng,'#LPAGEXB1',"")
-						mPage('#LPAGEX1');
+						loadMyPage('',myWebHost+'lccpag2.php?language='+lng,'#LPAGEXB2',"")
+						mPage('#LPAGEX2');
 					}
 					break;
 				default:
@@ -180,22 +180,8 @@ document.addEventListener("deviceready", onDeviceReady, false);
 						mPage('#CROPS');
 						break;
 					case (myID==="GS"):
-						loadMyPage('',myWebHost+'gspag1.php?language='+lng,'#GPAGEXB1',"");
-						mPage('#GPAGEX1');
-						break;
-					case (myID==="GSP2"):
-						var Gchkbox=$('#GSchkbox').is(':checked');
-						if(Gchkbox===true){
-							loadMyPage('',myWebHost+'gspag2.php?language='+lng,'#GPAGEXB2',"");
-							mPage('#GPAGEX2');
-						} else {						
-							if(lng=='PB'){ alert('ਸਾਵਧਾਨੀਆਂ ਨੂੰ ਮੰਨਣ ਲਈ ਟਿੱਕ ਲਗਾ ਕੇ ਸਹਿਮਤੀ ਦਿਓ। ');	}
-							if(lng=='EN'){ alert('Please read and agree to the precautions');}
-							if(lng=='HN'){ alert('सावधानी बरतने के लिए टिक लगा कर पुष्टि करें। ');}
-							event.preventDefault();						
-					 	    $.mobile.loading('hide');
-							mPage('#GPAGEX1');
-						}
+						loadMyPage('',myWebHost+'gspag2.php?language='+lng,'#GPAGEXB2',"");
+						mPage('#GPAGEX2');
 						break;
 					case (myID==="GSF2"):
 						var Gchkbox2=$('#GSchkbox2').is(':checked');
@@ -327,22 +313,8 @@ document.addEventListener("deviceready", onDeviceReady, false);
 						}
 						break;
 					case (myID==="LCC"):
-						loadMyPage('',myWebHost+'lccpag1.php?language='+lng,'#LPAGEXB1',"")
-						mPage('#LPAGEX1');
-						break;
-					case (myID==="LCC1"):
-						var Gchkbox=$('#LCCchkbox').is(':checked');
-						if(Gchkbox===true){
-							loadMyPage('',myWebHost+'lccpag2.php?language='+lng,'#LPAGEXB2',"");
-							mPage('#LPAGEX2');
-						} else {	
-							if(lng=='PB'){ alert('ਸਾਵਧਾਨੀਆਂ ਨੂੰ ਮੰਨਣ ਲਈ ਟਿੱਕ ਲਗਾ ਕੇ ਸਹਿਮਤੀ ਦਿਓ।');	}
-							if(lng=='EN'){ alert('Please read and agree to the precautions');}
-							if(lng=='HN'){ alert('सावधानी बरतने के लिए टिक लगा कर पुष्टि करें।');}
-							event.preventDefault();						
-					 	    $.mobile.loading('hide');
-							mPage('#LPAGEX1');
-						}
+						loadMyPage('',myWebHost+'lccpag2.php?language='+lng,'#LPAGEXB2',"")
+						mPage('#LPAGEX2');
 						break;
 					case (myID==="LCC2"):
 						var Gchkbox=$('#LCCchkbox2').is(':checked');
